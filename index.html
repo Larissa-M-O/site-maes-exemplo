@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dia das Mães</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      color: #4b2c2c;
+    }
+
+    /* MENU FLUTUANTE */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #ffb6c1;
+      padding: 10px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #4b2c2c;
+      font-weight: bold;
+    }
+
+    header {
+      background-image: url('imagem/fundo.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      background-color: rgba(255, 182, 193, 0.7);
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 2.5em;
+    }
+
+    .conteudo {
+      margin-top: 350px;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .conteudo img {
+      width: 400px;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .audio-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .audio-section h2 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background-color: #ffe4e1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    footer img,
+    footer video {
+      width: 300px;
+      border-radius: 8px;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#Larissa">Larissa</a>
+    <a href="#Janine">Janine</a>
+    <a href="#Denise">Denise</a>
+  </nav>
+
+  <header>
+    <h1>Edileide</h1>
+  </header>
+
+  <section class="conteudo">
+    <a href="#Larissa"><img src="imagem/Fundo 2.jpg" alt="Filho 1"></a>
+    <div class="audio-section" id="Larissa">
+      <h2>Larissa</h2>
+      <audio controls>
+        <source src="audios/Alô_Sertanejo_ChitãozinhoeXororó.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+    </div>
+  </section>
+
+  <section class="conteudo">
+    <a href="#Janine"><img src="imagem/fundo 3.jpg" alt="Filho 2"></a>
+    <div class="audio-section" id="Janine">
+      <h2>Janine</h2>
+      <audio controls>
+        <source src="audios/HappierThanEver_Internacional_BilieEilish.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+    </div>
+  </section>
+
+  <section class="conteudo">
+    <a href="#Denise"><img src="imagem/fundo.jpg" alt="Filho 3"></a>
+    <div class="audio-section" id="Denise">
+      <h2>Denise</h2>
+      <audio controls>
+        <source src="audios/Alô_Sertanejo_ChitãozinhoeXororó.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+    </div>
+  </section>
+
+  <footer>
+    <img src="imagem/Fundo 2.jpg" alt="Galeria 1">
+    <img src="imagem/fundo.jpg" alt="Galeria 2">
+    <img src="imagem/Fundo 2.jpg" alt="Galeria 1">
+    <img src="imagem/Fundo 2.jpg" alt="Galeria 1">
+    <img src="imagem/Fundo 2.jpg" alt="Galeria 1">
+    <img src="imagem/Fundo 2.jpg" alt="Galeria 1">
+    <img src="imagem/Fundo 2.jpg" alt="Galeria 1">
+    <img src="imagem/Fundo 2.jpg" alt="Galeria 1">
+    <video controls>
+      <source src="videos/VID-20201129-WA0028.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+    <video controls>
+      <source src="videos/VID-20201129-WA0028.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo.
+    </video>
+  </footer>
+</body>
+</html>
